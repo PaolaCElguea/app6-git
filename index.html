@@ -1,0 +1,264 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app6.4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+
+<body onLoad="MM_preloadImages('images/bat4.jpg','images/battlixco1.jpg','images/museo2.jpg','images/500.jpg','images/bj3.jpg','images/bat9.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-text="a">
+ <h1>Batalla De Puebla</h1>
+ <p>Cinco de Mayo, fecha de la conmemoración de la Batalla de Puebla, marca la primera vez que el ejército mexicano pudo derrotar a una potencia extranjera mejor preparada, en este caso los franceses. La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia.</p>
+ </div>
+ 
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-fisrt-child ui-last-child">
+<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué pasó el 5 de Mayo?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Cuál fue el conflicto?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Héroes</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Monumentos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Museos</h2>
+</a>
+</li>
+   </ul>
+   </div>
+   </div>
+
+</li>
+</ul>
+</div>
+</div>
+ 
+   
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+   <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+   </div>
+   
+   <div data-role="page" id="page2" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+<h1>¿Qué pasó el 5 de Mayo?</h1>
+ </div>
+<p>Un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. </p>
+<p>Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir, los franceses se retiraron incondicionalmente del país en el año 1867. </p>
+<div data-role="collapsible" data-content-theme="false">
+   <h2>¿Que más pasó?</h2>
+   <p>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México para reclamar sus derechos como acreedores por una deuda que ascendía a alrededor de 80 millones de pesos, de los que aproximadamente 69 millones corresponderían a Inglaterra, 9 millones a España y 2 millones a Francia.
+   <p>El contingente europeo estaba conformado como sigue:
+   <p>España: 6000 hombres al mando del General Juan Prim.
+   <p>Francia: 3000 hombres dirigidos por el Contraalmirante Edmond Jurien de la Gravière.
+   <p>Reino Unido: 700 marines bajo el comando del Comodoro Dunlop</p>
+   <center>
+   </center>
+<center>
+          <img src="images/bat10.jpg" name="bata01" width="40%" height="45%" id="bata01" onMouseOver="MM_swapImage('bata01','','images/bat4.jpg',1)" onMouseOut="MM_swapImgRestore()">
+</center>
+
+ <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.citlalired.com/index.php/271-batalla-del-5-de-mayo-en-puebla-triunfo-historico-de-mexico" target="_self" data-role="button" id="battl54">
+   <h2>Batalla del 5 de mayo en Puebla: Triunfo histórico de México</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="http://ntrzacatecas.com/2017/05/05/batalla-de-puebla-marco-identidad-de-mexico-historiador/" target="_self" data-role="button">
+   <h2>Batalla de Puebla marcó identidad de México: historiador</h2>
+   </a>
+   </li>
+   </ul>
+   </div>
+   </div>
+
+ </div>
+ 
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+ 
+ <div data-role="page" id="page3" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+<h1>¿Cuál fue el conflicto?</h1>
+</div>
+  <div>
+En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una gran deuda de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia</div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h2>Más información</h2>
+   <p>Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.</p>
+   <p>Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios.</p>
+<center>
+          <img src="images/battlixco.jpg" name="bata02" width="336" id="bata02" onMouseOver="MM_swapImage('bata02','','images/battlixco1.jpg',1)" onMouseOut="MM_swapImgRestore()">
+</center>
+ </div>
+ 
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <div data-role="page" id="page4" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+<h1>Héroes</h1>
+ </div>
+  <div>
+  <div>
+    <div>
+      <h2>Ignacio Zaragoza</h2>
+      <p>
+        <black>Ignacio Zaragoza Seguin</black>
+        (24 de marzo de 1829 - 8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla, que tuvo lugar el 5 de mayo de 1862, cuando el ejército mexicano derrotó al ejército francés de élite al mando de Charles Ferdinand Latrille (Conde de Lorencez), considerado en su momento el mejor del mundo.</p>
+      <img src="images/Ignacio_Zaragoza.png" alt="" width="212" height="210"> </div>
+    <div data-role="collapsible" data-content-theme="false">
+      <h4>"Las armas nacionales se han cubierto de Gloria"</h4>
+      <center>
+        <img src="images/zaragoza.jpg" alt="" name="bata04" width="322" height="210" id="bata04" onMouseOver="MM_swapImage('bata04','','images/500.jpg',1)" onMouseOut="MM_swapImgRestore()">
+      </center>
+    </div>
+    <div>
+      <h2>Benito Juarez</h2>
+      <p>Benito Pablo Juárez García (San Pablo Guelatao, Oaxaca, 21 de marzo de 1806 – Ciudad de México, 18 de julio de 1872) fue un abogado y político mexicano, de origen indígena (de la etnia zapoteca), presidente de México en varias ocasiones, del 18 de diciembre de 1857 al 18 de julio de 1872.1 
+      <p>Se le conoce como el «Benemérito de las Américas».Es célebre su frase:
+        <black>«Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz»</black>
+        .</p>
+      <img src="images/bj1.jpg" alt="" width="212" height="210"> </div>
+    <div data-role="collapsible" data-content-theme="false">
+      <h4>"El respeto al derecho ajeno es la paz"</h4>
+      <center>
+        <img src="images/bj2.jpg" alt="" name="bata05" width="359" height="375" id="bata05" onMouseOver="MM_swapImage('bata05','','images/bj3.jpg',1)" onMouseOut="MM_swapImgRestore()">
+      </center>
+    </div>
+    <h2>&nbsp;</h2>
+  </div>
+<div data-role="collapsible" data-content-theme="false"></div>
+ </div> 
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+ <div data-role="page" id="page5" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+<h1>Monumentos</h1>
+ </div>
+  <div>
+    <div>
+      <h2>Monumento a La Victoria 5 de Mayo</h2>
+      <p>En la Zona Histórica de los Fuertes hay varias atracciones que vale la pena visitar, la verdad es que para visitar todas si necesitas un día entero, o hasta más. Y es que este lugar cuenta con un valor histórico, patriótico y cultural de gran importancia.
+      <p>Justo antes de llegar a los Fuertes, uno pasa por este monumento, y muchas veces pasa casi desapercibido, pero no debe ser así ya que es de gran importancia. El Monumento a la Victoria (5 de mayo) fue hecha por el escultor y pintor mexicano Ernesto Tamariz.
+      <p>Recibe su nombre debido a que aquí el ejercito mexicano libró una poderosa batalla contra el ejercito francés, durante la Segunda Intervención Francesa el 5 de mayo de 1862. Dicha batalla fue liderada por el General Ignacio Zaragoza, que estaba a cargo del Ejercito de Oriente. La batalla fue ganada por el ejercito mexicano, lo que llenó de orgullo al país, y sobre todo a la gente de Puebla.
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+      <h4>Imagen</h4>
+      <img src="images/monumento_batalla_de_puebla_2.jpg" alt="" width="50%" height="50%"> </div>
+    <div>
+      <h3>Monumento a Ignacio Zaragoza</h3>
+      <p>Cuando uno viene llegando a la Zona de los Fuertes lo primero que llama la atención es el monumento que está justo en medio de la carretera. Muchos sólo se quedan impactados por su belleza toman foto y se van, pero hay que saber que éste es un monumento muy representativo, históricamente hablando, ya que está dedicado a Ignacio Zaragoza. 
+      <p>Ignacio Zaragoza es uno de los héroes de la batalla del 5 de mayo, librada contar el ejercito francés en 1862. Él era el  general del Ejercito de Oriente, que resultó triunfador en esta batalla.
+      <p>El 5 de mayo de 1976 Ignacio Zaragoza fue nombrado benemérito de la patria, por su destacada participación durante la Segunda Intervención Francesa. Y para quienes no lo saben, es por este personaje que esta ciudad lleva el nombre oficial de "Puebla de Zaragoza".
+      <p>El monumento a este héroe de la patria es una enorme fuente que en las noches se pinta de luces, haciendo lucir hermosa esta parte de la ciudad. Un lugar que vale la pena visitar antes o al salir de la Zona de los Fuertes
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+      <h4>Imagen</h4>
+      <img src="images/monumento_batalla_de_puebla_1.jpg" alt="" width="50%" height="50%"> </div>
+    <h2></h2>
+    <h2>&nbsp;</h2>
+  </div> 
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page6" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+<h1>Museos</h1>
+ </div>
+  <div>
+    <h3>MUSEO INTERACTIVO DE LA BATALLA DEL 5 DE MAYO</h3>
+    <p>Una de las más grandes batallas que ha librado el país tuvo lugar en la ciudad de Puebla, la batalla del 5 de mayo de 1862. En la zona de los fuertes, en el mismo escenario del pasado, se ubica el museo interactivo.</p>
+    <p>El recorrido por el museo utiliza la tecnología más puntera para narrar las acciones militares y la biografía de héroes nacionales como Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos interactivos descargables en dispositivos ofrecen una experiencia única al visitante.</p>
+    <div data-role="collapsible" data-content-theme="false">
+      <h4>Imagen</h4>
+      <center>
+        <img src="images/museoi.jpg" name="bata03" width="50%" height="50%" id="bata03" onMouseOver="MM_swapImage('bata03','','images/museo2.jpg',1)" onMouseOut="MM_swapImgRestore()">
+      </center>
+    </div>
+    <p>&nbsp;</p>
+ <div data-role="collapsible" data-content-theme="false">
+   <h4>Mas informacion</h4>
+  <p><p>Si quieres saber más de éste museo haz clic aquí <a href="http://puebla.travel/es/museos/item/museo-interactivo-de-la-batalla-del-5-de-mayo" target="_self">Museo Interactivo</a></p></p>
+  <center><img src="images/bat13.jpg" width="311" height="466">
+  <img src="images/bat12.jpg" name="bata06" width="307" height="457" id="bata06" onMouseOver="MM_swapImage('bata06','','images/bat9.jpg',1)" onMouseOut="MM_swapImgRestore()"></center>
+  <p>&nbsp;</p>
+  
+</div>
+ 
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>PAOLA CONSTANZA ELGUEA PEREZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+   
+</body>
+</html>
